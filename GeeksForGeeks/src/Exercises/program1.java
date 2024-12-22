@@ -1,9 +1,9 @@
 package Exercises;
 
-public class test {
+public class program1 {
 
 	public static void main(String[] args) {
-		System.out.println("git add");
+		System.out.println("\"Hello World!\"");
 
 	}
 
