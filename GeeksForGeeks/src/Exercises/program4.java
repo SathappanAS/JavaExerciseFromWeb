@@ -4,7 +4,7 @@ package Exercises;
 /*Output: 1001*/
 public class program4 {
 	public static void main(String[] args) {
-		int a=9;
+		//int a=9;
 		int b=9%2; //1
 		int c=9/2; //4
 		
