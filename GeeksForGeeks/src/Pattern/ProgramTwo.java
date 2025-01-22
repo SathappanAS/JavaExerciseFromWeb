@@ -50,5 +50,4 @@ public class ProgramTwo {
 					System.out.println(" ");
 				}
 	}
-		}
-
+}
