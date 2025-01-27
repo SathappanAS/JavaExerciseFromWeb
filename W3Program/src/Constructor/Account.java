@@ -10,8 +10,8 @@ import java.util.Scanner;
 >>>>>>Print an error message if the validation fails.*/
 public class Account {
 
-	int accountNumber;
-	int balance;
+	private int accountNumber;
+	private int balance;
 	
 	public Account(int accountNumber, int balance) {
 		
@@ -30,7 +30,6 @@ public class Account {
 	public static void main(String[] args) {
 		Account a1=new Account(1234567,99);
 		
-
 	}
 
 }

@@ -30,6 +30,7 @@ public class Books {
 	
 	public static void main(String[] args) {
 		Books B1=new Books("Java","Naveen","ISBN");
+		
 		System.out.println(B1.getTitle());
 		System.out.println(B1.title);
 	}
