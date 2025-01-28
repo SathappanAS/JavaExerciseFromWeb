@@ -9,8 +9,6 @@ public class testTwo {
 		System.out.println("open");
 		System.out.println("open");
 		
-
-		
 		try {
 			int i=9/3;
 			testTwo obj=new testTwo();
@@ -28,6 +26,7 @@ public class testTwo {
 			e.printStackTrace();
 		}
 
+		System.out.println("close ");
 	}
 
 }

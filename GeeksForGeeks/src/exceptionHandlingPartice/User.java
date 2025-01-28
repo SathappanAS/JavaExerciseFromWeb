@@ -1,5 +1,5 @@
 package exceptionHandlingPartice;
-
+/*Important question*/
 public class User {
 
 	public static void div(int a,int b) {
@@ -11,6 +11,7 @@ public class User {
 		 d=a/b;
 		}
 		catch(ArithmeticException e) {
+			//reporting/logging/screenshot/fail/validating message
 			System.out.println("AE ---error");
 			e.printStackTrace(); //LIFO 
 		}
