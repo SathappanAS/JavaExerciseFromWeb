@@ -24,13 +24,13 @@ public class Classroom {
 //    	 for (String student : students) {
 //             System.out.print(student + " ");
 //         }
-    	 
+    		
     	 for(int i=0;i<students.length;i++) {
     		 
-    		System.out.println(students[i]); 
-//    		String[] student=new String[students.length];
-//			students[i]=student[i];
-//    		System.out.print(student + " ");
+//    		System.out.println(students[i]); 
+    		 String[] student=new String[students.length];
+			student[i]=students[i];
+    		System.out.print(student[i] + " ");
     	 }
     	 
     	 System.out.println("");
