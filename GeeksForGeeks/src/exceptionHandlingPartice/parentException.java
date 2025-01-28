@@ -13,7 +13,7 @@ public class parentException {
 			int p[]=new int[2]; 
 			p[5]=100; //ArrayIndexOutOfBoundsException
 			
-			int i=9/3; //ArithmeticException
+			int i=9/0; //ArithmeticException
 			testTwo obj=new testTwo();
 			obj = null;
 			obj.name="testing"; //NullPointerException
