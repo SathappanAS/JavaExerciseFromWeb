@@ -1,5 +1,5 @@
 package exceptionHandlingPartice;
-
+/*Error handling in java - Interivew question*/
 public class stackOverflowErrorHandlingtwo {
 
 	public static void test() {
