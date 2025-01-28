@@ -26,6 +26,8 @@ public class testThree {
 			e.printStackTrace();
 		}
 
+		System.out.println("close ");
+		
 	}
 
 }
