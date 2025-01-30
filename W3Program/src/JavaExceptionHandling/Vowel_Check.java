@@ -20,16 +20,20 @@ public class Vowel_Check {
 	    	  }
 	   
 	public static void main(String[] args) {
-	
-		   try {
-			      String text = "Java handling and managing exceptions ";
-			      // String text = "Typy gyps fly.";
-			      System.out.println("Original string: " + text);
-			      checkVowels(text);
-			      System.out.println("String contains vowels.");
-			    } catch (NoVowelsException e) {
-			      System.out.println("Error: " + e.getMessage());
-			    }
-	}
+		
+		
+		
 
+	
+				   try {
+					      String text = "Java handling and managing exceptions ";
+					      // String text = "Typy gyps fly.";
+					      System.out.println("Original string: " + text);
+					      checkVowels(text);
+					      System.out.println("String contains vowels.");
+					    } catch (NoVowelsException e) {
+					      System.out.println("Error: " + e.getMessage());
+					    }
+
+}
 }
