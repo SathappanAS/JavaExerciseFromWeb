@@ -23,6 +23,7 @@ public class Singleton {
     
     
 	public static void main(String[] args) {
+		 		
 		
 		// Get the single instance of Singleton
 		Singleton instance1 = Singleton.getInstance();
