@@ -6,14 +6,15 @@ public class stackOverflowErrorHandlingtwo {
 		test();
 	}
 	
+	
 	public static void main(String[] args) {
 		
 		System.out.println("A");
 		
 		try {
-			test();
+			stackOverflowErrorHandlingtwo.test();
 		}
-		catch(Exception e){  //Handle stackOverflowErrorHandlingtwo
+		catch(Error e){  //Handle stackOverflowErrorHandlingtwo
 			System.out.println("some error is coming"); 
 			e.printStackTrace();
 		}
