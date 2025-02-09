@@ -3,9 +3,7 @@ package accModOne;
 public class chandler extends arizona {
 
 	public String state;
-	
 	int population;
-	
 	
 	public static void main(String[] args) {
 		

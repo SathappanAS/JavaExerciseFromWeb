@@ -11,6 +11,8 @@ public class arizona {
 		System.out.println("test");
 	}
 
+	
+	
 	public static void main(String[] args) {
 		
 		arizona a1=new arizona();
