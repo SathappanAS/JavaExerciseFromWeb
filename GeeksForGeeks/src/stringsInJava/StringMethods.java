@@ -3,12 +3,12 @@ package stringsInJava;
 public class StringMethods {
 
 	public static void main(String[] args) {
-		
+					 
 		String test="I am going to test string functions in java";
+		                        
+		System.out.println(test.length());
 		
 		System.out.println(test.charAt(9));
-		
-		
 		
 		int firstT = test.indexOf("t");
 		System.out.println(firstT);
@@ -22,6 +22,13 @@ public class StringMethods {
 		int fourthT = test.indexOf('t', thirdT+1);
 		System.out.println(fourthT);
 
+		int Fivth = test.indexOf('t', fourthT+1);
+		System.out.println(Fivth);
+		
+//		int sixth = test.indexOf('t', Fivth+1);
+//		System.out.println(sixth); -1
+		
+		
 	}
 
 }
